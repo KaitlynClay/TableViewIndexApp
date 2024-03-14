@@ -9,9 +9,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    //    ADD and then LINK the tableview and Cell? to the code with name of petTable
+    @IBOutlet weak var petTable: UITableView!
     
-    let petArray = [["Bird", "parakeet", "parrot", "canary", "finch"], ["Fish", "tropical fish", "goldfish", "sea horses"], ["Reptile", "turtle", "snake", "lizard"], ["Mammal", "cat", "dog", "hamster", "gerbil", "rabbit"]]
+    let petArray = [["Bird", "parakeet", "parrot", "canary", "finch"], ["Fish", "tropical fish", "goldfish", "sea horses"], ["Mammal", "cat", "dog", "hamster", "gerbil", "rabbit"], ["Reptile", "turtle", "snake", "lizard"]]
     
     let indexArray = ["🐥B", "🐠F", "🐕D", "🦎R"]
     
